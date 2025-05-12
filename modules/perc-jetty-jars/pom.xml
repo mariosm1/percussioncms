@@ -1,5 +1,4 @@
-
-
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -10,26 +9,21 @@
   </parent>
   <artifactId>perc-jetty-jars</artifactId>
   <name>perc-jetty-jars</name>
-   <packaging>pom</packaging>
-
+  <packaging>pom</packaging>
   <properties>
     <assembly-directory>${basedir}/target/distribution</assembly-directory>
     <jetty-directory>${basedir}/target/jetty</jetty-directory>
   </properties>
-
-
   <build>
-       <plugins>
+    <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
-        <executions>
-        </executions>
+        <executions />
       </plugin>
       <plugin>
         <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-        </executions>
+        <executions />
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -53,79 +47,67 @@
     </plugins>
   </build>
   <dependencies>
-      <dependency>
-          <groupId>com.percussion</groupId>
-          <artifactId>perc-jetty-logging</artifactId>
-          <version>${project.parent.version}</version>
-          <scope>provided</scope>
-      </dependency>
-
-  <dependency>
-        <groupId>com.percussion</groupId>
-        <artifactId>rxutils</artifactId>
-        <version>${project.parent.version}</version>
-      <exclusions>
-    <exclusion>
-              <groupId>com.google.guava</groupId>
-              <artifactId>guava</artifactId>
-       </exclusion>
-      </exclusions>
+    <dependency>
+      <groupId>com.percussion</groupId>
+      <artifactId>perc-jetty-logging</artifactId>
+      <version>${project.parent.version}</version>
+      <scope>provided</scope>
     </dependency>
-      <dependency>
-          <groupId>com.percussion</groupId>
-          <artifactId>servlet-utils</artifactId>
-          <version>${project.parent.version}</version>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.derby</groupId>
-          <artifactId>derbyclient</artifactId>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.derby</groupId>
-          <artifactId>derbynet</artifactId>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>net.sourceforge.jtds</groupId>
-          <artifactId>jtds</artifactId>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>com.microsoft.sqlserver</groupId>
-          <artifactId>mssql-jdbc</artifactId>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>com.oracle</groupId>
-          <artifactId>ojdbc6</artifactId>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>org.apache.derby</groupId>
-          <artifactId>derby</artifactId>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
-          <groupId>com.zaxxer</groupId>
-          <artifactId>HikariCP</artifactId>
-      </dependency>
-      <dependency>
-          <groupId>xerces</groupId>
-          <artifactId>xercesImpl</artifactId>
-      </dependency>
-      <dependency>
-          <groupId>xml-apis</groupId>
-          <artifactId>xml-apis</artifactId>
-      </dependency>
-      <dependency>
+    <dependency>
+      <groupId>com.percussion</groupId>
+      <artifactId>servlet-utils</artifactId>
+      <version>${project.parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbyclient</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbynet</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.jtds</groupId>
+      <artifactId>jtds</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.sqlserver</groupId>
+      <artifactId>mssql-jdbc</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>ojdbc6</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derby</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>xml-apis</groupId>
+      <artifactId>xml-apis</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.apache.geronimo.components</groupId>
       <artifactId>geronimo-jaspi</artifactId>
-      </dependency>
+    </dependency>
   </dependencies>
 </project>
