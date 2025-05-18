@@ -18,6 +18,16 @@
   </build>
   <dependencies>
     <dependency>
+      <groupId>com.percussion</groupId>
+      <artifactId>perc-security-utils</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.percussion</groupId>
+      <artifactId>rxutils</artifactId>
+      <version>${project.parent.version}</version>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>

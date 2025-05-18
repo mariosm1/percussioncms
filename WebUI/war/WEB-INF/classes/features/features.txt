@@ -20,7 +20,6 @@
 
 features/analytics/feature.xml
 features/auth-refresh/feature.xml
-features/caja/feature.xml
 features/content-rewrite/feature.xml
 features/core.auth/feature.xml
 features/core.config/feature.xml

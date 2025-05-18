@@ -48,5 +48,15 @@
       <groupId>net.sf.oval</groupId>
       <artifactId>oval</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.percussion</groupId>
+      <artifactId>perc-security-utils</artifactId>
+      <version>8.1.6-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.percussion</groupId>
+      <artifactId>rxutils</artifactId>
+      <version>${project.parent.version}</version>
+    </dependency>
   </dependencies>
 </project>

@@ -270,10 +270,9 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>ojdbc6</artifactId>
-      <optional>true</optional>
-      <scope>provided</scope>
+      <groupId>com.oracle.database.jdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>23.8.0.25.04</version>
     </dependency>
     <dependency>
       <artifactId>xercesImpl</artifactId>

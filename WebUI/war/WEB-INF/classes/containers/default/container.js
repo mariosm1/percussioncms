@@ -123,7 +123,6 @@
         "path" : "http://%host%/cm/rpc",
             "invalidatePath" : "http://%host%/cm/rpc",
             "domain" : "shindig",
-            "enableCaja" : false,
             "supportedFields" : {
             "person" : ["id", {"name" : ["familyName", "givenName", "unstructured"]}, "thumbnailUrl", "profileUrl"],
                 "activity" : ["id", "title"]

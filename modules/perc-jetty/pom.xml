@@ -164,8 +164,8 @@
                   <outputDirectory>${assembly-directory}/base/lib/jdbc</outputDirectory>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>com.oracle</groupId>
-                  <artifactId>ojdbc6</artifactId>
+                  <groupId>com.oracle.database.jdbc</groupId>
+                  <artifactId>ojdbc8</artifactId>
                   <version>${oracle.version}</version>
                   <type>jar</type>
                   <overWrite>true</overWrite>
@@ -290,8 +290,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>ojdbc6</artifactId>
+      <groupId>com.oracle.database.jdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>${oracle.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

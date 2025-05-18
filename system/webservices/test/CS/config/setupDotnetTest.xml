@@ -57,7 +57,7 @@
 		<fileset dir="${basedir}/Tools/Spring-3.2.13" includes="*.jar" />
 		<pathelement path="${basedir}/Tools/xerces/xmlParserAPIs.jar" />
 		<pathelement path="${basedir}/Tools/xerces/xercesImpl.jar" />
-		<pathelement path="${basedir}/jdbc/oracle9/ojdbc6.jar" />
+		<pathelement path="${basedir}/jdbc/oracle9/ojdbc8.jar" />
 		<pathelement path="${basedir}/jdbc/Sprinta/Sprinta2000.jar" />
 		<pathelement path="${basedir}/jdbc/jtds/jtds.jar" />
 		<fileset dir="${basedir}/Tools/Hibernate" includes="*.jar" />

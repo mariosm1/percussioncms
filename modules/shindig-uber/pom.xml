@@ -258,13 +258,13 @@
     <dependency>
       <groupId>net.oauth.core</groupId>
       <artifactId>oauth</artifactId>
-      <version>20090531</version>
+      <version>20090617</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.inject.extensions</groupId>
       <artifactId>guice-jmx</artifactId>
-      <version>2.0</version>
+      <version>3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -289,10 +289,6 @@
           <artifactId>oauth</artifactId>
         </exclusion>
         <exclusion>
-          <groupId>caja</groupId>
-          <artifactId>caja</artifactId>
-        </exclusion>
-        <exclusion>
           <artifactId>google-collections</artifactId>
           <groupId>com.google.collections</groupId>
         </exclusion>
@@ -314,13 +310,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>caja</groupId>
-      <artifactId>caja</artifactId>
-      <!-- required version for beta 5 includes html-sanitize-minified.js and opensocial package.-->
-      <version>r3828</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.apache.shindig</groupId>
       <artifactId>shindig-features</artifactId>
       <version>${shindig.version}</version>
@@ -333,15 +322,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.code.guice</groupId>
+      <groupId>com.google.inject</groupId>
       <artifactId>guice</artifactId>
-      <version>2.0</version>
+      <version>3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.inject.extensions</groupId>
       <artifactId>guice-multibindings</artifactId>
-      <version>2.0</version>
+      <version>3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
